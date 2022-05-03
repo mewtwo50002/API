@@ -27,5 +27,7 @@ app.get('/skins/uncommon', (req, res) => {
 
 app.get('/skins/Legendary', (req, res) => {
   res.status(200),
-  res.json()
+  res.sendFile('skins.json', {
+    
+  })
     })
